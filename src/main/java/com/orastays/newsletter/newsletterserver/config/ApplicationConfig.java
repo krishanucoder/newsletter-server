@@ -21,7 +21,7 @@ public class ApplicationConfig {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(getApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.orastays.booking.bookingserver.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.orastays.newsletter.newsletterserver.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
@@ -29,8 +29,8 @@ public class ApplicationConfig {
     private ApiInfo getApiInfo() {
         Contact contact = new Contact("", "", "");
         return new ApiInfoBuilder()
-                .title("Booking Server Dashboard")
-                .description("Booking Server Definition")
+                .title("Newsletter Server Dashboard")
+                .description("Newsletter Server Definition")
                 .version("1.0.0")
                 .license("Apache 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0")

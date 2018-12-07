@@ -2,7 +2,7 @@ package com.orastays.newsletter.newsletterserver.exceptions;
 
 public class MailSendException extends Exception {
 
-	private static final long serialVersionUID = 8122816820501266175L;
+	private static final long serialVersionUID = -4353411905072544051L;
 	private String name;
 
 	public MailSendException(String name) {

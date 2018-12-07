@@ -2,8 +2,8 @@ package com.orastays.newsletter.newsletterserver.exceptions;
 
 public class EmptyValueException extends Exception {
 
-	private static final long serialVersionUID = 5327405044050866283L;
 	
+	private static final long serialVersionUID = 5665113550143664217L;
 	private String name;
 
 	public EmptyValueException(String name) {

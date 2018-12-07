@@ -7,7 +7,8 @@ import java.util.Map;
 
 public class FormExceptions extends Exception {
 
-	private static final long serialVersionUID = -2792746956950525730L;
+
+	private static final long serialVersionUID = -6630369748068217640L;
 
 	private Map<String, Exception> exceptions = new HashMap<String, Exception>();
 
